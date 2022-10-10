@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url("../imagens/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+header {
+    background-color: black;
+}
+
+header ul {
+    color: white;
+    width: 100vw;
+}
+
+header ul li {
+    display: inline-block;
+    background-color: black;
+    list-style: none;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 30px;
+    margin: 10px;
+    margin-right: 100px;
+}
+
+header ul li:first-child {
+    margin-left: 100px;
+    margin-right: 600px;
+}
+
+header ul li#logo {
+    font-size: 30px;
+    float: left;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+header ul li a:hover {
+    background-color: lightgray;
+    border-radius: 5px;
+    color: black;
+    transition: 1s;
+}
+
+div#apresentacao {
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+div#apresentacao h1 {
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: 'Patrick Hand', cursive;
+}
+
+div#apresentacao p {
+    text-align: center;
+    text-indent: 30px;
+    text-align: justify;
+    max-width: 800px;
+    margin: auto;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 20px;
+}
+
+hr {
+    border-color: black;
+}
+
+.container h1 {
+    margin-top: 30px;
+    margin-bottom: -30px;
+    font-family: 'Patrick Hand', cursive;
+}
+
+.container {
+    width:800px;
+    height:190px;
+    padding-top:20px;
+    padding-left:15px;
+    padding-right:15px;
+    text-align: center;
+    margin: auto;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+#st-box, #st-box2 {
+    float:left;
+    width:160px;
+    height:160px;
+    background-color:white;
+    border-radius: 360px;
+    margin-right: 80px;
+    margin-top: 100px;
+}
+
+#st-box {
+    background-image: url("../imagens/icons8-html-5-160.png");
+}
+
+#nd-box, #nd-box2 {
+    float:left;
+    width:160px;
+    height:160px;
+    background-color:white; 
+    border-radius: 360px;
+    margin-left:80px;
+    margin-top: 100px;
+}
+
+#rd-box, #rd-box2 {
+    float:right;
+    width:160px;
+    height:160px;
+    background-color:white;
+    border-radius: 360px;
+    margin-top: 100px;
+}
+
+.container p {
+    margin-top: 170px;
+    font-family: 'Patrick Hand', cursive;
+}
