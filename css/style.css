@@ -12,15 +12,17 @@ body {
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
+    width: 100%;
 }
 
 header {
     background-color: black;
+    width: 100%;
 }
 
 header ul {
     color: white;
-    width: 100vw;
+    width: 100%;
 }
 
 header ul li {
@@ -28,18 +30,19 @@ header ul li {
     background-color: black;
     list-style: none;
     font-family: 'Patrick Hand', cursive;
-    font-size: 30px;
+    font-size: 50px;
     margin: 10px;
-    margin-right: 100px;
+    margin-right: 5%;
 }
 
 header ul li:first-child {
     margin-left: 100px;
-    margin-right: 600px;
+    margin-right: 60%;
+    max-width: 50%;
 }
 
 header ul li#logo {
-    font-size: 30px;
+    font-size: 50px;
     float: left;
 }
 
@@ -54,30 +57,32 @@ header ul li a:hover {
     border-radius: 5px;
     color: black;
     transition: 1s;
+    margin: 10px;
 }
 
 div#apresentacao {
-    border-left: 2px solid black;
-    border-right: 2px solid black;
-    margin-left: 100px;
-    margin-right: 100px;
+    border-left: 4px solid black;
+    border-right: 4px solid black;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 div#apresentacao h1 {
-    margin-top: 50px;
+    margin-top: 4%;
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 3%;
     font-family: 'Patrick Hand', cursive;
+    font-size: 50px;
 }
 
 div#apresentacao p {
     text-align: center;
     text-indent: 30px;
     text-align: justify;
-    max-width: 800px;
+    max-width: 60%;
     margin: auto;
     font-family: 'Patrick Hand', cursive;
-    font-size: 20px;
+    font-size: 35px;
 }
 
 hr {
@@ -85,57 +90,94 @@ hr {
 }
 
 .container h1 {
-    margin-top: 30px;
+    margin-top: 4%;
     margin-bottom: -30px;
     font-family: 'Patrick Hand', cursive;
+    font-size: 50px;
 }
 
 .container {
-    width:800px;
-    height:190px;
+    width:40%;
+    height:390px;
     padding-top:20px;
-    padding-left:15px;
-    padding-right:15px;
+    padding-left:50px;
+    padding-right:50px;
     text-align: center;
     margin: auto;
-    border-left: 2px solid black;
-    border-right: 2px solid black;
+    border-left: 4px solid black;
+    border-right: 4px solid black;
 }
 
 #st-box, #st-box2 {
     float:left;
-    width:160px;
-    height:160px;
-    background-color:white;
+    width:240px;
+    height:240px;
     border-radius: 360px;
     margin-right: 80px;
-    margin-top: 100px;
+    margin-top: 130px;
 }
 
 #st-box {
-    background-image: url("../imagens/icons8-html-5-160.png");
+    background-image: url("../imagens/html.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#st-box:hover, #nd-box:hover, #rd-box:hover, #st-box2:hover, #nd-box2:hover, #rd-box2:hover {
+    color: lightgray;
+    transition: 0.5s;
+    padding-right: 10px;
+}
+
+#st-box2 {
+    background-image: url("../imagens/heroku.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #nd-box, #nd-box2 {
     float:left;
-    width:160px;
-    height:160px;
-    background-color:white; 
+    width:240px;
+    height:240px;
     border-radius: 360px;
-    margin-left:80px;
-    margin-top: 100px;
+    margin-left: 100px;
+    margin-top: 130px;
+}
+
+#nd-box {
+    background-image: url("../imagens/css.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#nd-box2 {
+    background-image: url("../imagens/netlify.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #rd-box, #rd-box2 {
     float:right;
-    width:160px;
-    height:160px;
-    background-color:white;
+    width:240px;
+    height:240px;
     border-radius: 360px;
-    margin-top: 100px;
+    margin-top: 130px;
+}
+
+#rd-box {
+    background-image: url("../imagens/js.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#rd-box2 {
+    background-image: url("../imagens/typescript.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .container p {
-    margin-top: 170px;
+    margin-top: 240px;
     font-family: 'Patrick Hand', cursive;
+    font-size: 30px;
 }
