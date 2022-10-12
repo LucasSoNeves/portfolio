@@ -168,5 +168,105 @@
         margin: auto;
         border-left: 2px solid black;
         border-right: 2px solid black;
+        display: flex;
+        padding-top: 0px;
     }
+
+    .projetos h1 {
+        text-align: center;
+    }
+
+    .projetos input {
+        display: none;
+    }
+    
+    .slide {
+        width: 100%;
+        position: relative;
+        transition: 2s;
+        margin-top: 100px ;
+    }
+    
+    .slide img {
+        width: 400px;
+    }
+    
+    .manual-navigation {
+        position: absolute;
+        width: 400px;
+        margin-top: -0px;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+    
+    .manual-btn {
+        border: 2px solid white;
+        padding: 5px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: 1s;
+    }
+    
+    .manual-btn:not(:last-child) {
+        margin-right: 10px;
+    }
+    
+    .manual-btn:hover {
+        background-color: white;
+    }
+    
+    #projeto1:checked ~ .first {
+        margin-left: 0%;
+    }
+    
+    #projeto2:checked  ~ .first {
+        margin-left: -25%;
+    }
+    
+    #projeto3:checked ~ .first {
+        margin-left: -50%;
+    }
+    
+    #projeto4:checked ~ .first {
+        margin-left: -75%;
+    }
+    
+    .navigation-auto div {
+        border: 2px solid #20a6ff;
+        padding: 5px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: 1s;
+        margin-top: 80px;
+    }
+    
+    .navigation-auto {
+        position: absolute;
+        width: 370px;
+        margin-top: 265px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .navigation-auto div:not(:last-child){
+        margin-right: 20px;
+    }
+    
+    #projeto1:checked ~ .navigation-auto .auto-btn1 {
+        background-color: white;
+    }
+    
+    #projeto2:checked ~ .navigation-auto .auto-btn2 {
+        background-color: white;
+    }
+    
+    #projeto3:checked ~ .navigation-auto .auto-btn3 {
+        background-color: white;
+    }
+    
+    #projeto4:checked ~ .navigation-auto .auto-btn4 {
+        background-color: white;
+    }
+
 }
