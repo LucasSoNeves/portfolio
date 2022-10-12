@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+@media screen and (max-width: 600px){
+    body {
+        background-image: url("../imagens/background4.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center center;
+        background-size: cover;
+        width: 100%;
+    }  
+}
