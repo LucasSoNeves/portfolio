@@ -192,11 +192,11 @@
         margin-bottom: 35px;
         font-size: 18px;
     }
-
-    .projetos div h3:hover, p:hover {
+    
+    .projetos label div:hover {
         color: lightgray;
-        transition: 0.5s;
-        padding-right: 10px;
+        transition: 1s;
+        padding-right: 15px;
     }
 
     footer {
@@ -205,5 +205,9 @@
         text-align: center;
         background-color: black;
         color: lightgray;
+    }
+
+    .titulo1, .titulo2, .titulo3, .sobre {
+        visibility: hidden;
     }
 }

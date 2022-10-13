@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/scrollreveal"></script>
     <link rel="stylesheet" href="../css/desktop.css">
     <link rel="stylesheet" href="../css/telaspequenas.css">
     <link rel="stylesheet" href="../css/celular.css">
@@ -22,8 +23,8 @@
 
     <main>
         <div id="apresentacao">
-            <h1>Sobre mim</h1>
-            <p>Me chamo Lucas, tenho 20 anos e no momento estou cursando Análise e Desenvolvimento de Sistemas.
+            <h1 class="titulo1">Sobre mim</h1>
+            <p class="sobre">Me chamo Lucas, tenho 20 anos e no momento estou cursando Análise e Desenvolvimento de Sistemas.
                  Paralelo a isso estudo tecnologias front-end para aprofundar ainda mais meus conhecimentos e habilidades nas mesmas.
                   Estou sempre dando meu melhor em tudo o que faço e sempre em busca de atingir meus objetivos extraindo
                    o máximo de conhecimento possível. Pretendo começar a estudar PHP para back-end e alguns frameworks para o front, como Angular e React.</p>
@@ -32,8 +33,8 @@
 
         <br>
         <div class="container">
-            <h1>Tecnologias</h1>
-            <div id="st-box">
+            <h1 class="titulo2">Tecnologias</h1>
+            <div id="st-box" class="tecno1">
                 <p>
                     HTML <br>
                     Experiência: <br>
@@ -41,7 +42,7 @@
                 </p>
             </div>
               
-            <div id="nd-box">
+            <div id="nd-box" class="tecno2">
                 <p>
                     CSS <br>
                     Experiência: <br>
@@ -49,7 +50,7 @@
                 </p>
             </div>
               
-            <div id="rd-box">
+            <div id="rd-box" class="tecno3">
                 <p>
                     JavaScript <br>
                     Experiência: <br>
@@ -57,7 +58,7 @@
                 </p>
             </div>
 
-            <div id="st-box2">
+            <div id="st-box2" class="tecno4">
                 <p>
                     Heroku <br>
                     Experiência: <br>
@@ -65,7 +66,7 @@
                 </p>
             </div>
               
-            <div id="nd-box2">
+            <div id="nd-box2" class="tecno5">
                 <p>
                     Netlify <br>
                     Experiência: <br>
@@ -74,7 +75,7 @@
                 
             </div>
               
-            <div id="rd-box2">
+            <div id="rd-box2" class="tecno6">
                 <p>
                     TypeScript <br>
                     Experiência: <br>
@@ -89,50 +90,59 @@
         </div>
 
         <div class="projetos">
-            <h1>Projetos</h1>
-            <div id="pj1">
-                <a href="https://github.com/LucasSoNeves/lcymovie" target="_blank"><img src="../imagens/slides/lcymovie.png" alt=""></a>
-                <p>
-                    <h3>Site de análise de filmes</h3>
-                </p>
-                <p>
-                    <b>Tecnologias utilizadas:</b> <br>
-                    HTML, CSS, JS, TS, JAVA e HEROKU.
-                </p>
-            </div>
-
-            <div id="pj2">
-                <a href="https://github.com/LucasSoNeves/site-de-turismo" target="_blank"><img src="../imagens/slides/turismo.png" alt=""></a>
-                <p>
-                    <h3>Guia Turístico</h3>
-                </p>
-                <p>
-                    <b>Tecnologias utilizadas:</b> <br>
-                    HTML, CSS e JS.
-                </p>
-             </div>
-             
-            <div id="pj3">
-                <a href="https://github.com/LucasSoNeves/loja" target="_blank"><img src="../imagens/slides/loja.png" alt=""></a>
-                <p>
-                    <h3>Mini Loja</h3>
-                </p>
-                <p>
-                    <b>Tecnologias utilizadas:</b> <br>
-                    HTML, CSS e JS.
-                </p>
-            </div>
-
-            <div id="pj4">
-                <a href="https://github.com/LucasSoNeves/site-android" target="_blank"><img src="../imagens/slides/android.png" alt=""></a>
-                <p>
-                    <h3>Site android</h3>
-                </p>
-                <p>
-                    <b>Tecnologias utilizadas:</b> <br>
-                    HTML e CSS.
-                </p>
-            </div>
+            <h1 class="titulo3">Projetos</h1>
+            <label for="pj1">
+                <div id="pj1" class="projeto1">
+                    <a href="https://github.com/LucasSoNeves/lcymovie" target="_blank"><img src="../imagens/slides/lcymovie.png" alt=""></a>
+                    <p>
+                        <h3>Site de análise de filmes</h3>
+                    </p>
+                    <p>
+                        <b>Tecnologias utilizadas:</b> <br>
+                        HTML, CSS, JS, TS, JAVA e HEROKU.
+                    </p>
+                </div>
+            </label>
+            
+            <label for="pj2">
+                <div id="pj2" class="projeto2">
+                    <a href="https://github.com/LucasSoNeves/site-de-turismo" target="_blank"><img src="../imagens/slides/turismo.png" alt=""></a>
+                    <p>
+                        <h3>Guia Turístico</h3>
+                    </p>
+                    <p>
+                        <b>Tecnologias utilizadas:</b> <br>
+                        HTML, CSS e JS.
+                    </p>
+                </div>
+            </label>
+            
+             <label for="pj3">
+                <div id="pj3" class="projeto3">
+                    <a href="https://github.com/LucasSoNeves/loja" target="_blank"><img src="../imagens/slides/loja.png" alt=""></a>
+                    <p>
+                        <h3>Mini Loja</h3>
+                    </p>
+                    <p>
+                        <b>Tecnologias utilizadas:</b> <br>
+                        HTML, CSS e JS.
+                    </p>
+                </div>
+             </label>
+            
+             <label for="pj4">
+                <div id="pj4" class="projeto4">
+                    <a href="https://github.com/LucasSoNeves/site-android" target="_blank"><img src="../imagens/slides/android.png" alt=""></a>
+                    <p>
+                        <h3>Site android</h3>
+                    </p>
+                    <p>
+                        <b>Tecnologias utilizadas:</b> <br>
+                        HTML e CSS.
+                    </p>
+                </div>
+             </label>
+            
         </div>
     </main> <br>
     <hr>
@@ -141,5 +151,6 @@
             Fim do site!
         </p>
     </footer>
+    <script src="../js/scroll.js"></script>
 </body>
 </html>
