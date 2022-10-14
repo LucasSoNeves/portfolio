@@ -174,8 +174,11 @@
         margin-bottom: 20px;
     }
 
+    .projetos label {
+        text-align: center;
+    }
+
     .projetos div img {
-        margin-left: 18%;
         width: 500px;
         height: 300px;
     }

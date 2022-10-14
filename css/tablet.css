@@ -18,7 +18,7 @@
         font-family: 'Patrick Hand', cursive;
         font-size: 20px;
         margin: 5px;
-        margin-right: 5%;
+        margin-right: 3%;
     }
     
     header ul li:first-child {
@@ -159,7 +159,7 @@
     }
 
     .projetos {
-        width:60%;
+        width:70%;
         height: 1430px;
         padding-top:20px;
         margin: auto;
@@ -173,8 +173,11 @@
         margin-bottom: 20px;
     }
 
+    .projetos label {
+        text-align: center;
+    }
+
     .projetos div img {
-        margin-left: 18%;
         width: 400px;
         height: 200px;
     }
