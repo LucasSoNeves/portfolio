@@ -51,6 +51,11 @@ header ul li a:hover {
     margin: 10px;
 }
 
+header ul li#logo:hover {
+    background-color: black;
+    color: white;
+}
+
 hr {
     border-color: black;
 }

@@ -55,27 +55,3 @@ sr.reveal('.tecno6', {
     origin: 'right',
     duration: 2000,
 });
-
-sr.reveal('.projeto1', {
-    distance: '0px',
-    opacity: 0,
-    duration: 2000,
-});
-
-sr.reveal('.projeto2', {
-    distance: '0px',
-    opacity: 0,
-    duration: 2000,
-});
-
-sr.reveal('.projeto3', {
-    distance: '0px',
-    opacity: 0,
-    duration: 2000,
-});
-
-sr.reveal('.projeto4', {
-    distance: '0px',
-    opacity: 0,
-    duration: 2000,
-});

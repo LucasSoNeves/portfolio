@@ -29,7 +29,7 @@
             <p class="sobre">Me chamo Lucas, tenho 20 anos e no momento estou cursando Análise e Desenvolvimento de Sistemas.
                  Paralelo a isso estudo tecnologias front-end para aprofundar ainda mais meus conhecimentos e habilidades nas mesmas.
                   Estou sempre dando meu melhor em tudo o que faço e sempre em busca de atingir meus objetivos extraindo
-                   o máximo de conhecimento possível. Pretendo começar a estudar PHP para back-end e alguns frameworks para o front, como Angular e React.</p>
+                   o máximo de conhecimento possível. Pretendo começar a estudar Java para back-end e alguns frameworks para o front, como Angular e React.</p>
         </div> <br>
         <hr>
 
@@ -93,59 +93,22 @@
 
         <div class="projetos">
             <h1 class="titulo3">Projetos</h1>
-            <label for="pj1">
-                <div id="pj1" class="projeto1">
-                    <a href="https://github.com/LucasSoNeves/lcymovie" target="_blank"><img src="../imagens/slides/lcymovie.png" alt=""></a>
-                    <p>
-                        <h3>Site de análise de filmes</h3>
-                    </p>
-                    <p>
-                        <b>Tecnologias utilizadas:</b> <br>
-                        HTML, CSS, JS, TS, JAVA e HEROKU.
-                    </p>
+            <div id="slider">
+                <button class="btnSlider" onclick="trocarImagem(-1)"> < </button>
+                <div id="loading">
+                    <div id="barraDeLoading"></div>
                 </div>
-            </label>
-            
-            <label for="pj2">
-                <div id="pj2" class="projeto2">
-                    <a href="https://github.com/LucasSoNeves/site-de-turismo" target="_blank"><img src="../imagens/slides/turismo.png" alt=""></a>
-                    <p>
-                        <h3>Guia Turístico</h3>
-                    </p>
-                    <p>
-                        <b>Tecnologias utilizadas:</b> <br>
-                        HTML, CSS e JS.
-                    </p>
-                </div>
-            </label>
-            
-             <label for="pj3">
-                <div id="pj3" class="projeto3">
-                    <a href="https://github.com/LucasSoNeves/loja" target="_blank"><img src="../imagens/slides/loja.png" alt=""></a>
-                    <p>
-                        <h3>Mini Loja</h3>
-                    </p>
-                    <p>
-                        <b>Tecnologias utilizadas:</b> <br>
-                        HTML, CSS e JS.
-                    </p>
-                </div>
-             </label>
-            
-             <label for="pj4">
-                <div id="pj4" class="projeto4">
-                    <a href="https://github.com/LucasSoNeves/site-android" target="_blank"><img src="../imagens/slides/android.png" alt=""></a>
-                    <p>
-                        <h3>Site android</h3>
-                    </p>
-                    <p>
-                        <b>Tecnologias utilizadas:</b> <br>
-                        HTML e CSS.
-                    </p>
-                </div>
-             </label>
-            
+                <button class="btnSlider" onclick="trocarImagem(1)"> > </button>
+            </div>
         </div>
+        <main id="links">
+            <ul>
+                <li><a href="https://github.com/LucasSoNeves/site-android" target="_blank">Código site android</a></li>
+                <li><a href="https://github.com/LucasSoNeves/lcymovie" target="_blank">Código site filmes</a></li>
+                <li><a href="https://github.com/LucasSoNeves/loja" target="_blank">Código site Loja</a></li>
+                <li><a href="https://github.com/LucasSoNeves/site-de-turismo" target="_blank">Código site turismo</a></li>
+            </ul>
+        </main>
     </main> <br>
     <hr>
     <footer>
@@ -153,6 +116,7 @@
             Fim do site!
         </p>
     </footer>
+    <script src="../js/main.js"></script>
     <script src="../js/scroll.js"></script>
 </body>
 </html>
