@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
 
-@media screen and (min-width: 1201px) and (max-width: 1359px) {
+@media screen and (min-width: 1440px) and (max-width: 1679px) {
     body {
         background-image: url("../imagens/background.jpg");
         background-repeat: no-repeat;
